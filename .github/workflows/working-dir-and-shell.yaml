@@ -28,7 +28,7 @@ jobs:
           echo $env:GITHUB_REPOSITORY
           echo $env:GITHUB_WORKSPACE
       - name: Change Working Dir
-        working-directory: /home/runner
+        working-directory: /home
         run: pwd
       - name: Python Shell
         shell: python
