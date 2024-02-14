@@ -28,7 +28,7 @@ jobs:
           echo $env:GITHUB_REPOSITORY
           echo $env:GITHUB_WORKSPACE
       - name: Change Working Dir
-        working-directory: /home/ndomi.nqeketo
+        working-directory: /home/runner
         run: pwd
       - name: Python Shell
         shell: python
