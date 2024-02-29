@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-      # with:
-      #   fetch-depth: 0
+    # - uses: actions/checkout@v2
+    #   with:
+    #     fetch-depth: 0
 
-    - uses: Ndomi-Nqeketo/myactions/action@main
+    - uses: myactions/action@main
       with:
         token: ${{ secrets.MY_PERSONAL_ACCESS_TOKE }}
