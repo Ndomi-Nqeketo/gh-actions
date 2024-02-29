@@ -11,6 +11,6 @@ jobs:
       with:
         fetch-depth: 0
 
-    - uses: myactions/action@SAN
+    - uses: Ndomi-Nqeketo/myactions/action@SAN
       # with:
       #   token: ${{ secrets.MY_PERSONAL_ACCESS_TOKE }}
