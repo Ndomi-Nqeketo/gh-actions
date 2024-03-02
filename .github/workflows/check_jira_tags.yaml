@@ -3,9 +3,5 @@ name: Jira Tag Check
 on: [push]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Testing reusable workflow
-        uses: Ndomi-Nqeketo/myactions/.github/workflows/action.yml@main
+  call-reusable-workflow:
+    uses: Ndomi-Nqeketo/myactions/.github/workflows/action.yml@main
