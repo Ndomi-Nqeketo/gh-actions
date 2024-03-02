@@ -7,7 +7,7 @@ on:
 
 jobs:
   jira-tag-check:
-    uses: Ndomi-Nqeketo/myactions/.github/workflows/action.yml@SAN
+    uses: Ndomi-Nqeketo/myactions/.github/workflows/action.yml@SAN.v1.0.0
 
   build:
     needs: call-reusable-workflow
