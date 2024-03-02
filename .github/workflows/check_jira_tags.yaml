@@ -7,4 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: Ndomi-Nqeketo/myactions@main
+      - name: Testing reusable workflow
+        uses: Ndomi-Nqeketo/myactions/.github/workflows/action.yml@main
