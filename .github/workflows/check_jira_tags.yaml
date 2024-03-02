@@ -1,10 +1,13 @@
 name: Jira Tag Check
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  call-reusable-workflow:
-    uses: Ndomi-Nqeketo/myactions/.github/workflows/action.yml@main
+  jira-tag-check:
+    uses: Ndomi-Nqeketo/myactions/.github/workflows/action.yml@SAN
 
   build:
     needs: call-reusable-workflow
